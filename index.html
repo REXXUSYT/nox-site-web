@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Nox — Une histoire</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       .avatar {
         width: 140px;
@@ -28,6 +28,7 @@
         font-family: "Segoe UI", sans-serif;
         background: linear-gradient(180deg, #0f172a, #1e293b);
         color: #e2e8f0;
+        font-size: 16px;
       }
 
       header {
@@ -86,6 +87,34 @@
         padding: 40px;
         opacity: 0.5;
         font-size: 0.9rem;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        p.subtitle {
+          font-size: 0.9rem;
+        }
+
+        section {
+          margin: 40px auto;
+          padding: 0 15px;
+        }
+
+        .card {
+          padding: 15px;
+        }
+
+        .avatar {
+          width: 100px;
+          height: 100px;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+        }
       }
     </style>
   </head>
