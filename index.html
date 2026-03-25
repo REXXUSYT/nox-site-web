@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nox — Une histoire</title>
+
+    <style>
+      .avatar {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 4px solid #7c3aed;
+        box-shadow: 0 0 25px rgba(124, 58, 237, 0.8);
+
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+
+      .avatar:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 40px rgba(124, 58, 237, 1);
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #0f172a, #1e293b);
+        color: #e2e8f0;
+      }
+
+      header {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background: radial-gradient(circle at top, #1e293b, #020617);
+      }
+
+      h1 {
+        font-size: 4rem;
+        margin: 0;
+        letter-spacing: 2px;
+      }
+
+      p.subtitle {
+        opacity: 0.7;
+        margin-top: 10px;
+        font-style: italic;
+      }
+
+      section {
+        max-width: 800px;
+        margin: 80px auto;
+        padding: 0 20px;
+      }
+
+      h2 {
+        border-left: 4px solid #7c3aed;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(10px);
+      }
+
+      .friends span {
+        display: inline-block;
+        background: #7c3aed;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin: 5px;
+        font-size: 0.9rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 40px;
+        opacity: 0.5;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="nox.jpg" alt="Photo de Nox" class="avatar" />
+      <h1>Nox</h1>
+      <p class="subtitle">❤️​</p>
+    </header>
+
+    <section>
+      <h2>Fait par Alicia</h2>
+      <div class="card">
+        <p>Bon, déjà… faut qu’on parle 😌</p>
+        <p>
+          Depuis que je suis arrivé sur le serveur, j’ai compris un truc : t’es
+          pas juste un staff… t’es LE staff (même si parfois on se demande
+          comment t’as été accepté 💀).
+        </p>
+        <p>
+          Franchement, t’es quelqu’un de spécial. Toujours là pour rigoler, pour
+          troller
+        </p>
+        <p>
+          Bref, continue d’être toi-même : un staff un peu chaotique, un peu
+          drôle, mais surtout quelqu’un qu’on oublie pas.
+        </p>
+        <p>✨ Joyeux cadeau à toi, chef du chaos</p>
+        <p>✨ (signé : Alicia)</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚡ Personnalité</h2>
+      <div class="card">
+        <p>Un mélange étrange de : sarcasme, humour, loyauté et tres soumis.</p>
+        <p>
+          Le genre de personne qui peut te faire rire sans raison, puis
+          disparaître comme si rien ne s’était passé.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>🌸 Cercle proche</h2>
+      <div class="card friends">
+        <span>Tanjiro</span>
+        <span>Alicia</span>
+        <span>Mey</span>
+        <span>Kellysa</span>
+        <span>Rexxus ❤️​</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>🎴 Citation</h2>
+      <div class="card">
+        <p>
+          "Dans chaque serveur, il y a des gens qui parlent… et puis il y a ceux
+          qu’on n’oublie pas."
+        </p>
+      </div>
+    </section>
+
+    <footer>by Rexxus et Alicia</footer>
+  </body>
+</html>
